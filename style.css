@@ -1,0 +1,52 @@
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  background: #E4E4E4;
+  font-family : Times, serif;
+  color : rgb(50, 50, 50);
+  width: 70%;
+}
+
+h1 {
+  color : rgb(150, 150, 150);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px
+}
+h2 {
+  color: #CC4646;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px
+}
+h3 {
+  color: #BEBEBE;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px
+}
+
+a {
+  color: #CC4646;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+    a:hover {
+        color: #DF3927;
+        text-decoration: none;
+    }
+.card {
+
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
